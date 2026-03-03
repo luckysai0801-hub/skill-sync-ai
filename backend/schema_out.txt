@@ -1,0 +1,212 @@
+{
+    "status":  "error",
+    "message":  "(psycopg2.errors.DuplicateColumn) column \"updated_at\" of relation \"users\" already exists\n\n[SQL: ALTER TABLE users ADD COLUMN updated_at TIMESTAMP DEFAULT NOW();]\n(Background on this error at: https://sqlalche.me/e/20/f405)"
+}
+{
+    "columns":  [
+                    {
+                        "name":  "id",
+                        "type":  "integer"
+                    },
+                    {
+                        "name":  "email",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "name",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "role",
+                        "type":  "USER-DEFINED"
+                    },
+                    {
+                        "name":  "created_at",
+                        "type":  "timestamp without time zone"
+                    },
+                    {
+                        "name":  "password_hash",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "email_verified",
+                        "type":  "boolean"
+                    },
+                    {
+                        "name":  "email_verification_token",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "verification_token_expires",
+                        "type":  "timestamp without time zone"
+                    },
+                    {
+                        "name":  "last_login",
+                        "type":  "timestamp without time zone"
+                    },
+                    {
+                        "name":  "failed_login_attempts",
+                        "type":  "integer"
+                    },
+                    {
+                        "name":  "last_failed_login",
+                        "type":  "timestamp without time zone"
+                    },
+                    {
+                        "name":  "reset_token",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "reset_token_expires",
+                        "type":  "timestamp without time zone"
+                    },
+                    {
+                        "name":  "is_active",
+                        "type":  "boolean"
+                    },
+                    {
+                        "name":  "updated_at",
+                        "type":  "timestamp without time zone"
+                    },
+                    {
+                        "name":  "instance_id",
+                        "type":  "uuid"
+                    },
+                    {
+                        "name":  "id",
+                        "type":  "uuid"
+                    },
+                    {
+                        "name":  "aud",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "role",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "email",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "encrypted_password",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "email_confirmed_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "invited_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "confirmation_token",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "confirmation_sent_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "recovery_token",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "recovery_sent_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "email_change_token_new",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "email_change",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "email_change_sent_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "last_sign_in_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "raw_app_meta_data",
+                        "type":  "jsonb"
+                    },
+                    {
+                        "name":  "raw_user_meta_data",
+                        "type":  "jsonb"
+                    },
+                    {
+                        "name":  "is_super_admin",
+                        "type":  "boolean"
+                    },
+                    {
+                        "name":  "created_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "updated_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "phone",
+                        "type":  "text"
+                    },
+                    {
+                        "name":  "phone_confirmed_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "phone_change",
+                        "type":  "text"
+                    },
+                    {
+                        "name":  "phone_change_token",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "phone_change_sent_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "confirmed_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "email_change_token_current",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "email_change_confirm_status",
+                        "type":  "smallint"
+                    },
+                    {
+                        "name":  "banned_until",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "reauthentication_token",
+                        "type":  "character varying"
+                    },
+                    {
+                        "name":  "reauthentication_sent_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "is_sso_user",
+                        "type":  "boolean"
+                    },
+                    {
+                        "name":  "deleted_at",
+                        "type":  "timestamp with time zone"
+                    },
+                    {
+                        "name":  "is_anonymous",
+                        "type":  "boolean"
+                    }
+                ]
+}

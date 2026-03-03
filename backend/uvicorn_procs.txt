@@ -1,0 +1,82 @@
+[
+    {
+        "ProcessId":  14820,
+        "CommandLine":  "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c -l \"source /c/Users/HP/.claude/shell-snapshots/snapshot-bash-1772518155404-78zyn6.sh \u0026\u0026 shopt -u extglob 2\u003e/dev/null || true \u0026\u0026 eval \u0027cd c:/Users/HP/OneDrive/Desktop/KL/backend \u0026\u0026 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000\u0027 \\\u003c /dev/null \u0026\u0026 pwd -P \u003e| \\tmp\\claude-b43a-cwd\""
+    },
+    {
+        "ProcessId":  4016,
+        "CommandLine":  "\"C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe\" -c -l \"source /c/Users/HP/.claude/shell-snapshots/snapshot-bash-1772518155404-78zyn6.sh \u0026\u0026 shopt -u extglob 2\u003e/dev/null || true \u0026\u0026 eval \u0027cd c:/Users/HP/OneDrive/Desktop/KL/backend \u0026\u0026 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000\u0027 \\\u003c /dev/null \u0026\u0026 pwd -P \u003e| \\tmp\\claude-b43a-cwd\""
+    },
+    {
+        "ProcessId":  14936,
+        "CommandLine":  "\"C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe\" -c -l \"source /c/Users/HP/.claude/shell-snapshots/snapshot-bash-1772518155404-78zyn6.sh \u0026\u0026 shopt -u extglob 2\u003e/dev/null || true \u0026\u0026 eval \u0027cd c:/Users/HP/OneDrive/Desktop/KL/backend \u0026\u0026 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000\u0027 \\\u003c /dev/null \u0026\u0026 pwd -P \u003e| \\tmp\\claude-b43a-cwd\""
+    },
+    {
+        "ProcessId":  4568,
+        "CommandLine":  "E:\\python\\python.exe -m uvicorn main:app --reload --host 0.0.0.0 --port 8000"
+    },
+    {
+        "ProcessId":  5856,
+        "CommandLine":  "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c -l \"source /c/Users/HP/.claude/shell-snapshots/snapshot-bash-1772519560834-anfw7l.sh \u0026\u0026 shopt -u extglob 2\u003e/dev/null || true \u0026\u0026 eval \u0027cd c:/Users/HP/OneDrive/Desktop/KL/backend \u0026\u0026 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000\u0027 \\\u003c /dev/null \u0026\u0026 pwd -P \u003e| \\tmp\\claude-6ec3-cwd\""
+    },
+    {
+        "ProcessId":  12508,
+        "CommandLine":  "\"C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe\" -c -l \"source /c/Users/HP/.claude/shell-snapshots/snapshot-bash-1772519560834-anfw7l.sh \u0026\u0026 shopt -u extglob 2\u003e/dev/null || true \u0026\u0026 eval \u0027cd c:/Users/HP/OneDrive/Desktop/KL/backend \u0026\u0026 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000\u0027 \\\u003c /dev/null \u0026\u0026 pwd -P \u003e| \\tmp\\claude-6ec3-cwd\""
+    },
+    {
+        "ProcessId":  3720,
+        "CommandLine":  "\"C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe\" -c -l \"source /c/Users/HP/.claude/shell-snapshots/snapshot-bash-1772519560834-anfw7l.sh \u0026\u0026 shopt -u extglob 2\u003e/dev/null || true \u0026\u0026 eval \u0027cd c:/Users/HP/OneDrive/Desktop/KL/backend \u0026\u0026 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000\u0027 \\\u003c /dev/null \u0026\u0026 pwd -P \u003e| \\tmp\\claude-6ec3-cwd\""
+    },
+    {
+        "ProcessId":  8440,
+        "CommandLine":  "E:\\python\\python.exe -m uvicorn main:app --reload --host 0.0.0.0 --port 8000"
+    },
+    {
+        "ProcessId":  8688,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"venv\\Scripts\\pip.exe list 2\u003e\u00261 | findstr -i \\\"fastapi uvicorn sqlalchemy dotenv psycopg pydantic\\\"\""
+    },
+    {
+        "ProcessId":  3280,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"venv\\Scripts\\uvicorn.exe main:app --host 0.0.0.0 --port 8000 2\u003e\u00261\""
+    },
+    {
+        "ProcessId":  4392,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"venv\\Scripts\\uvicorn.exe main:app --port 8000 \u003e uvicorn_output.txt 2\u003e\u00261 \u0026 timeout /t 8 \u0026 type uvicorn_output.txt\""
+    },
+    {
+        "ProcessId":  15032,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"type uvicorn_output.txt\""
+    },
+    {
+        "ProcessId":  8412,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"taskkill /F /IM uvicorn.exe 2\u003e\u00261 \u0026 echo \\\"killed\\\"\""
+    },
+    {
+        "ProcessId":  13728,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"start cmd /k \\\"cd /d C:\\Users\\HP\\OneDrive\\Desktop\\KL\\backend \u0026\u0026 venv\\Scripts\\uvicorn.exe main:app --reload --host 0.0.0.0 --port 8000\\\"\""
+    },
+    {
+        "ProcessId":  9416,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"venv\\Scripts\\uvicorn main:app --reload --host 0.0.0.0 --port 8000 2\u003e\u00261\""
+    },
+    {
+        "ProcessId":  16000,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"taskkill /F /IM uvicorn.exe 2\u003e\u00261 \u0026\u0026 taskkill /F /IM python.exe 2\u003e\u00261 || echo \\\"No processes to kill\\\"\""
+    },
+    {
+        "ProcessId":  11844,
+        "CommandLine":  "python  -m uvicorn main:app --reload --port 8000"
+    },
+    {
+        "ProcessId":  4696,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"powershell -Command \\\"Get-Process -Name python -ErrorAction SilentlyContinue | Where-Object { $_.CommandLine -match \u0027uvicorn\u0027 } | Select-Object Id\\\"\""
+    },
+    {
+        "ProcessId":  7140,
+        "CommandLine":  "C:\\WINDOWS\\system32\\cmd.EXE -c \"powershell -Command \\\"Get-CimInstance Win32_Process | Where-Object {$_.CommandLine -match \u0027uvicorn\u0027} | Select-Object ProcessId, CommandLine | ConvertTo-Json\\\"\""
+    },
+    {
+        "ProcessId":  2708,
+        "CommandLine":  "powershell  -Command \"Get-CimInstance Win32_Process | Where-Object {$_.CommandLine -match \u0027uvicorn\u0027} | Select-Object ProcessId, CommandLine | ConvertTo-Json\"  "
+    }
+]

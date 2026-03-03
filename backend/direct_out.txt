@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\KL\backend\test_direct.py", line 7, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'

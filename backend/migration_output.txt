@@ -1,0 +1,27 @@
+Connecting to database...
+
+Checking and adding missing columns to 'users' table...
+  ✓ password_hash already exists – skipped
+  ✅ Added email_verified (BOOLEAN DEFAULT FALSE)
+  ✅ Added email_verification_token (VARCHAR UNIQUE)
+  ✅ Added verification_token_expires (TIMESTAMP)
+  ✅ Added last_login (TIMESTAMP)
+  ✅ Added failed_login_attempts (INTEGER DEFAULT 0)
+  ✅ Added last_failed_login (TIMESTAMP)
+  ✅ Added reset_token (VARCHAR UNIQUE)
+  ✅ Added reset_token_expires (TIMESTAMP)
+  ✅ Added is_active (BOOLEAN DEFAULT TRUE)
+  ✓ updated_at already exists – skipped
+
+Adding indexes...
+  ✅ Index idx_email_verification_token ensured
+  ✅ Index idx_reset_token ensured
+  ✅ Index idx_last_login ensured
+
+==================================================
+Migration complete!
+  Added  : 9 columns  → ['email_verified', 'email_verification_token', 'verification_token_expires', 'last_login', 'failed_login_attempts', 'last_failed_login', 'reset_token', 'reset_token_expires', 'is_active']
+  Skipped: 2 columns (already existed)
+==================================================
+
+You can now restart the backend server and try registering again.

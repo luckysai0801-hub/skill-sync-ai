@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\KL\backend\test_email.py", line 1, in <module>
+    from email_validator import validate_email, EmailNotValidError
+ModuleNotFoundError: No module named 'email_validator'

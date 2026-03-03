@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\HP\OneDrive\Desktop\KL\backend\force_updated_at.py", line 5, in <module>
+    from database import engine
+  File "C:\Users\HP\OneDrive\Desktop\KL\backend\database.py", line 6, in <module>
+    from sqlalchemy import create_engine
+ModuleNotFoundError: No module named 'sqlalchemy'

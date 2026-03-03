@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "c:\Users\HP\OneDrive\Desktop\KL\backend\test_register.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

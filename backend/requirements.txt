@@ -1,12 +1,10 @@
 fastapi==0.104.1
 uvicorn[standard]==0.27.0
 sqlalchemy==2.0.30
-psycopg[binary]==3.1.18
+psycopg2-binary==2.9.9
 pydantic==2.7.1
 pdfplumber==0.11.1
 sentence-transformers==2.7.0
-# scikit-learn==1.4.2  # skipped due to Python 3.13 compatibility issues
-spacy==3.7.4
 numpy==1.26.4
 pandas==2.2.2
 python-multipart==0.0.9
@@ -24,5 +22,5 @@ slowapi==0.1.9
 # Database Migrations
 alembic==1.13.1
 
-# HTTP Client (for email service integration)
+# HTTP Client
 httpx==0.25.2
